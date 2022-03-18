@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cad.MiningApp.Api", "src\Cad.MiningApp.Api\Cad.MiningApp.Api.csproj", "{57141844-EBC6-47A1-9034-4DC6C3901C22}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cad.MiningApp.Core", "src\Cad.MiningApp.Core\Cad.MiningApp.Core.csproj", "{D0DF5A68-9DAB-47B9-A463-FF8F9F34DD64}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cad.MiningApp.Infrastructure", "src\Cad.MiningApp.Infrastructure\Cad.MiningApp.Infrastructure.csproj", "{FF0042D6-07DD-4144-8EC8-2292ECCAC91C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{A8E6E7AD-E164-42FD-9EF5-02FE2E1C8625}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cad.MiningApp.UnitTests", "tests\Cad.MiningApp.UnitTests\Cad.MiningApp.UnitTests.csproj", "{9A5AA65E-95DD-49B3-8E70-92FD211E0E75}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{57141844-EBC6-47A1-9034-4DC6C3901C22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57141844-EBC6-47A1-9034-4DC6C3901C22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57141844-EBC6-47A1-9034-4DC6C3901C22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57141844-EBC6-47A1-9034-4DC6C3901C22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0DF5A68-9DAB-47B9-A463-FF8F9F34DD64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0DF5A68-9DAB-47B9-A463-FF8F9F34DD64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0DF5A68-9DAB-47B9-A463-FF8F9F34DD64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0DF5A68-9DAB-47B9-A463-FF8F9F34DD64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF0042D6-07DD-4144-8EC8-2292ECCAC91C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF0042D6-07DD-4144-8EC8-2292ECCAC91C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF0042D6-07DD-4144-8EC8-2292ECCAC91C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF0042D6-07DD-4144-8EC8-2292ECCAC91C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A5AA65E-95DD-49B3-8E70-92FD211E0E75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A5AA65E-95DD-49B3-8E70-92FD211E0E75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A5AA65E-95DD-49B3-8E70-92FD211E0E75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A5AA65E-95DD-49B3-8E70-92FD211E0E75}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9A5AA65E-95DD-49B3-8E70-92FD211E0E75} = {A8E6E7AD-E164-42FD-9EF5-02FE2E1C8625}
+	EndGlobalSection
+EndGlobal
